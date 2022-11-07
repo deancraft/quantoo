@@ -1,0 +1,8 @@
+uuid: 45848e28-a90e-4eb4-8e06-0285ba8db1ec
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+id: default
+label: Default
