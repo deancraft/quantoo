@@ -1,0 +1,30 @@
+uuid: be2dd22d-d5d6-488c-9427-7ad0fe0fa694
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.list_of_books
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__list_of_books_block_1
+theme: olivero
+region: content_below
+weight: -7
+provider: null
+plugin: 'views_block:list_of_books-block_1'
+settings:
+  id: 'views_block:list_of_books-block_1'
+  label: 'Ostatnio dodane książki z tej samej kategorii'
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: 'Ostatnio dodane książki z tej samej kategorii'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/ksiazka/*'
