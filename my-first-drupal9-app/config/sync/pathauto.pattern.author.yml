@@ -1,0 +1,22 @@
+uuid: d10b78da-4843-4b52-938e-11c5a39a6935
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: author
+label: Autor
+type: 'canonical_entities:node'
+pattern: '/autor/[node:title]-[node:field_last_name]'
+selection_criteria:
+  c01955c2-a06d-40db-895a-6fb40d4e31f7:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c01955c2-a06d-40db-895a-6fb40d4e31f7
+    context_mapping:
+      node: node
+    bundles:
+      author: author
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,22 @@
+uuid: 862ee405-e71c-4fe0-9f71-6d204f20492f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: book
+label: Książka
+type: 'canonical_entities:node'
+pattern: '/ksiazka/[node:field_category]/[node:title]'
+selection_criteria:
+  435261d9-8e37-48f3-844c-23c11e3ddc97:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 435261d9-8e37-48f3-844c-23c11e3ddc97
+    context_mapping:
+      node: node
+    bundles:
+      book: book
+selection_logic: and
+weight: -5
+relationships: {  }

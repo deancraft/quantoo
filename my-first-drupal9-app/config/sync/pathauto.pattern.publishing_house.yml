@@ -1,0 +1,22 @@
+uuid: 25a34843-b3a3-4180-9c81-f767414a62c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: publishing_house
+label: Wydawnictwo
+type: 'canonical_entities:node'
+pattern: '/wydawnictwo/[node:title]'
+selection_criteria:
+  192fcc11-dbe0-483d-9b44-af8ba433c6b7:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 192fcc11-dbe0-483d-9b44-af8ba433c6b7
+    context_mapping:
+      node: node
+    bundles:
+      publishing_house: publishing_house
+selection_logic: and
+weight: 0
+relationships: {  }
