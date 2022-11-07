@@ -1,0 +1,14 @@
+uuid: ab3d9f16-a5c1-4c24-8f83-e627dbdaef63
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.only_books
+  module:
+    - user
+id: user_add_role_action.only_books
+label: 'Add the Only books role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: only_books

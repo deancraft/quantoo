@@ -1,0 +1,14 @@
+uuid: c1638d18-b680-4ba7-829b-a7dd7656f933
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.only_books
+  module:
+    - user
+id: user_remove_role_action.only_books
+label: 'Remove the Only books role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: only_books

@@ -1,0 +1,29 @@
+uuid: 4aec5bb6-d373-4deb-8023-cdef71c1c901
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.book
+  module:
+    - contextual
+    - filter
+    - node
+    - system
+    - toolbar
+id: only_books
+label: 'Only books'
+weight: -8
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'create book content'
+  - 'delete any book content'
+  - 'delete own book content'
+  - 'edit any book content'
+  - 'edit own book content'
+  - 'use text format full_html'
+  - 'view the administration theme'
