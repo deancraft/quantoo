@@ -1,0 +1,32 @@
+uuid: 6e80a7d8-b554-46d6-8162-403cc6bd1acb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.cover_photo.field_media_image_1
+    - image.style.medium
+    - media.type.cover_photo
+  module:
+    - image
+id: media.cover_photo.media_library
+targetEntityType: media
+bundle: cover_photo
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_image_1: true
+  name: true
+  uid: true

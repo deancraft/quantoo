@@ -1,0 +1,29 @@
+uuid: 8afc36ae-c69a-4fca-afd5-4b1e905b8ac5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images
+    - media.type.image
+    - node.type.book
+id: node.book.field_images
+field_name: field_images
+entity_type: node
+bundle: book
+label: Zdjęcia
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

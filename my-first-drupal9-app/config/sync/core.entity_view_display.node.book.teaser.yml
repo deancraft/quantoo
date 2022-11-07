@@ -6,7 +6,9 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.book.field_author
     - field.field.node.book.field_category
+    - field.field.node.book.field_cover_photo
     - field.field.node.book.field_description
+    - field.field.node.book.field_images
     - field.field.node.book.field_publishing_house
     - node.type.book
   module:
@@ -24,5 +26,7 @@ content:
 hidden:
   field_author: true
   field_category: true
+  field_cover_photo: true
   field_description: true
+  field_images: true
   field_publishing_house: true
