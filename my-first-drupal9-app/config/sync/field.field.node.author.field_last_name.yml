@@ -1,0 +1,19 @@
+uuid: 1baf2089-8b96-4e95-b628-027766c56887
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_name
+    - node.type.author
+id: node.author.field_last_name
+field_name: field_last_name
+entity_type: node
+bundle: author
+label: Nazwisko
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

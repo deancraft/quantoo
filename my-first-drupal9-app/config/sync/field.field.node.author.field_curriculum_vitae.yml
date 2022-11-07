@@ -1,0 +1,21 @@
+uuid: 8c13151f-ccdd-4c5b-87f2-7e59d50a58a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_curriculum_vitae
+    - node.type.author
+  module:
+    - text
+id: node.author.field_curriculum_vitae
+field_name: field_curriculum_vitae
+entity_type: node
+bundle: author
+label: Życiorys
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,17 @@
+uuid: d1da0415-4d9c-4661-abe7-a8dd75b12a47
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Książka
+type: book
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

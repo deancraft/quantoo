@@ -1,0 +1,24 @@
+uuid: cbb822d8-efc4-43b3-9fa2-09561c5e6085
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publishing_house.field_address
+    - field.field.node.publishing_house.field_description
+    - node.type.publishing_house
+  module:
+    - user
+id: node.publishing_house.teaser
+targetEntityType: node
+bundle: publishing_house
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_address: true
+  field_description: true

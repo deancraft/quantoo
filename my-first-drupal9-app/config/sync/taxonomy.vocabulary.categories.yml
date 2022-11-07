@@ -1,0 +1,8 @@
+uuid: 68d787c7-f304-4250-9ea0-8fe538a3b3a0
+langcode: en
+status: true
+dependencies: {  }
+name: Kategorie
+vid: categories
+description: ''
+weight: 0

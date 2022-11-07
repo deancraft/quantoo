@@ -1,0 +1,17 @@
+uuid: 80f8e53d-70d3-4a75-96bd-b43e7bea1402
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Wydawnictwo
+type: publishing_house
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

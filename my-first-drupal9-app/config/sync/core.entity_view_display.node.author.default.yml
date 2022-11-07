@@ -1,0 +1,37 @@
+uuid: eaebe95a-d725-4efa-a52b-6bb87c7a4ffd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author.field_curriculum_vitae
+    - field.field.node.author.field_last_name
+    - node.type.author
+  module:
+    - text
+    - user
+id: node.author.default
+targetEntityType: node
+bundle: author
+mode: default
+content:
+  field_curriculum_vitae:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_last_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

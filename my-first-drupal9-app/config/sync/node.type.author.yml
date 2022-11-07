@@ -1,0 +1,17 @@
+uuid: 628d4a81-e68b-4027-b1aa-89100bda52f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Autor
+type: author
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

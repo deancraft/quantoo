@@ -1,0 +1,24 @@
+uuid: 4ba9ad06-f553-4538-a0e1-89f1967c0d01
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author.field_curriculum_vitae
+    - field.field.node.author.field_last_name
+    - node.type.author
+  module:
+    - user
+id: node.author.teaser
+targetEntityType: node
+bundle: author
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_curriculum_vitae: true
+  field_last_name: true

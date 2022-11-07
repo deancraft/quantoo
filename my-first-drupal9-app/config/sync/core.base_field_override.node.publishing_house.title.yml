@@ -1,0 +1,18 @@
+uuid: e9c9a09e-9b58-4b85-9dcf-813f8e465522
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.publishing_house
+id: node.publishing_house.title
+field_name: title
+entity_type: node
+bundle: publishing_house
+label: Nazwa
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

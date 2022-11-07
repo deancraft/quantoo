@@ -1,0 +1,19 @@
+uuid: 4c825e4f-6d0c-465c-bf10-66dc3415139d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.publishing_house
+id: node.publishing_house.field_address
+field_name: field_address
+entity_type: node
+bundle: publishing_house
+label: Adres
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

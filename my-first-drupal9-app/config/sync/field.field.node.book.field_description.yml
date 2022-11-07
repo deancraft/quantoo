@@ -1,0 +1,21 @@
+uuid: c30214cc-cb1e-4034-a815-75360914b335
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.book
+  module:
+    - text
+id: node.book.field_description
+field_name: field_description
+entity_type: node
+bundle: book
+label: Opis
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

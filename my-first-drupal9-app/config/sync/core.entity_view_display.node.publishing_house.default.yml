@@ -1,0 +1,37 @@
+uuid: 16051658-a911-4be4-95f8-3586407e714e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publishing_house.field_address
+    - field.field.node.publishing_house.field_description
+    - node.type.publishing_house
+  module:
+    - text
+    - user
+id: node.publishing_house.default
+targetEntityType: node
+bundle: publishing_house
+mode: default
+content:
+  field_address:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
