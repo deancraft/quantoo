@@ -1,5 +1,7 @@
 services:
   web_custom.commands:
     class: \Drupal\web_custom\Commands\WebCustomCommands
+    arguments:
+      - '@web_custom.manager'
     tags:
       - { name: drush.command }

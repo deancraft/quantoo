@@ -1,0 +1,4 @@
+services:
+  web_custom.manager:
+    class: Drupal\web_custom\CustomService
+    arguments: ['@entity_type.manager', '@file_system']
