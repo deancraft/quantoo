@@ -1,0 +1,16 @@
+uuid: 749cca35-6f9f-4d6a-b733-3c689dfc83f8
+langcode: en
+status: true
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 0
+folder: local
+module:
+  devel: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

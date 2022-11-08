@@ -791,8 +791,12 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  * Keep this code block at the end of this file to take full effect.
  */
 
+$settings['config_sync_directory'] = $app_root . '/../config/sync';
+
+if (file_exists($app_root . '/' . $site_path . '/settings.prod.php')) {
+  include $app_root . '/' . $site_path . '/settings.prod.php';
+}
+
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-
-$settings['config_sync_directory'] = $app_root . '/../config/sync';
