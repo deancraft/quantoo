@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Web custom module.
+web_custom.settings:
+  type: config_object
+  label: 'Web custom settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

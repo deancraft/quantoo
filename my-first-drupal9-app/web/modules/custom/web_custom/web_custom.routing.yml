@@ -1,0 +1,7 @@
+web_custom.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'Settings'
+    _form: 'Drupal\web_custom\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

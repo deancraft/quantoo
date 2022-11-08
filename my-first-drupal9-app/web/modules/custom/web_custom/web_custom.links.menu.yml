@@ -1,0 +1,5 @@
+web_custom.settings:
+  title: Settings
+  parent: system.admin_config_system
+  route_name: web_custom.settings
+  weight: 10

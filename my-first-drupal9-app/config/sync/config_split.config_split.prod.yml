@@ -6,7 +6,7 @@ id: prod
 label: Prod
 description: ''
 weight: 0
-folder: prod
+folder: ../config/prod
 module: {  }
 theme: {  }
 blacklist: {  }

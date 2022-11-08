@@ -6,11 +6,12 @@ id: local
 label: Local
 description: ''
 weight: 0
-folder: local
+folder: ../config/local
 module:
   devel: 0
 theme: {  }
-blacklist: {  }
+blacklist:
+  - web_custom.settings
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
